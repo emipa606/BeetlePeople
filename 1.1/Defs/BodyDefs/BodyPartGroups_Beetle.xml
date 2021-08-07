@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>HornAttackTool</defName>
+    <label>horns</label>
+    <listOrder>205</listOrder>
+  </BodyPartGroupDef>
+</Defs>

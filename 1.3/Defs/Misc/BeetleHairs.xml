@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>BeetleHorn1</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn1</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>BeetleHorns2</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn2</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>BeetleHorns3</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn3</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>BeetleHorns4</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn4</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>BeetleHorns5</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn5</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>BeetleHorns6</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn6</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>BeetleHorns7</defName>
+    <label>Beetle Horns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Pawn/Humanlike/Hairs/BeetleHorn7</texPath>
+    <styleTags>
+      <li>BeetleHair</li>
+    </styleTags>
+  </HairDef>
+</Defs>

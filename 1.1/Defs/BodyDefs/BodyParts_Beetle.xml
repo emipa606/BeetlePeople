@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>BeetleHorns</defName>
+    <label>Horns</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>3</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <bleedRate>0</bleedRate>
+    <destroyableByDamage>false</destroyableByDamage>
+  </BodyPartDef>
+</Defs>
