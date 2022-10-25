@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--<FactionDef Abstract="True" Name="BeetleFactionBase">
+    <settlementTexturePath>World/WorldObjects/DefaultFactionBase</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>-->
+  <!--FactionDef ParentName="PlayerFactionBase" Name="BeetleFactionBase">
+    <defName>BeetlePlayerTribe</defName>
+    <label>Beetle Tribe</label>
+    <description>Your own tribe.</description>
+    <isPlayer>true</isPlayer>
+    <pawnsPlural>colonists</pawnsPlural>
+    <basicMemberKind>PlayerBeetle</basicMemberKind>
+		<techLevel>Neolithic</techLevel>
+		<backstoryCategories>
+			<li>Tribal</li>
+		</backstoryCategories>
+	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<settlementTexturePath>Icon/beetletown</settlementTexturePath>
+	<factionIconPath>Icon/beetletown</factionIconPath>
+	<pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+	<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+	<factionNameMaker>NamerFactionTribal</factionNameMaker>
+	<geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>BeetleHair</li>
+    </hairTags>
+    </FactionDef-->
+</Defs>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>BeetleTribe</defName>
+    <label>Beetle tribe</label>
+    <description>A tribe of Beetle people</description>
+    <basicMemberKind>BeetleArcher</basicMemberKind>
+    <pawnsPlural>Beetle People</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <settlementGenerationWeight>.5</settlementGenerationWeight>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(40, 3)</li>
+        <li>(400, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <canStageAttacks>false</canStageAttacks>
+    <factionIconPath>Icon/beetletown</factionIconPath>
+    <melaninRange>0.0~0.2</melaninRange>
+    <colorSpectrum>
+      <li>(0.4, 0.92, 0.35)</li>
+      <li>(0.89, 0.89, 0.7)</li>
+      <li>(1, 1, 0.1)</li>
+    </colorSpectrum>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <leaderTitle>beetle chief</leaderTitle>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Beetle_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <BeetleMelee>100</BeetleMelee>
+          <BeetleArcher>100</BeetleArcher>
+          <BeetleHeavyArcher>100</BeetleHeavyArcher>
+          <BeetleChief>50</BeetleChief>
+          <BeetleTrader>50</BeetleTrader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <BeetleTrader>1</BeetleTrader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <BeetleMelee>100</BeetleMelee>
+          <BeetleArcher>100</BeetleArcher>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <BeetleMelee>100</BeetleMelee>
+          <BeetleArcher>100</BeetleArcher>
+          <BeetleHeavyArcher>100</BeetleHeavyArcher>
+          <BeetleChief>50</BeetleChief>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <BeetleMelee>100</BeetleMelee>
+          <BeetleArcher>100</BeetleArcher>
+          <BeetleHeavyArcher>100</BeetleHeavyArcher>
+          <BeetleChief>50</BeetleChief>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+  </FactionDef>
+</Defs>
