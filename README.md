@@ -36,3 +36,4 @@ Requires Alien Race Framework 2.0
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2568676996]Last updated 2023-01-09
