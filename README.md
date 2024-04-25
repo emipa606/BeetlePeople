@@ -7,7 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1504654099
 
 - Faction is no longer permanent enemy of the Empire
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/KFjAmff.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)

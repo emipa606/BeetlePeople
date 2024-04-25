@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="BeetlePeople_UpdateFeatureBase">
+		<modNameReadable>BeetlePeople</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2568676996</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="BeetlePeople_UpdateFeatureBase">
+		<defName>BeetlePeople_1_5_0</defName>
+		<assemblyVersion>1.5.0</assemblyVersion>
+		<content>Due to a bad interaction with the developer of the HAR framework combined with the increased work required I have decided to not further update this mod. It will stay up to support the previous versions of the game.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
